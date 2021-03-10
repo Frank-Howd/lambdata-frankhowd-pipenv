@@ -1,4 +1,4 @@
-# IN style_example.py FILE 
+# IN style_example.py FILE
 
 # What would you say if you were working with someone and this is the code
 # they gave you?
@@ -29,7 +29,8 @@ class Example3(   object):
     def __init__   (self, bar):
         if bar: bar+= 1; bar=bar* bar     ; return bar
         else:
-            some_string = 'INDENTATION IN MULTIPLE STRINGS SHOULD NOT BE \
-                           TOUCHED only actual code should be reindented, \
-                           THIS IS MORE CODE'
+            some_string = """
+                  INDENTATION IN MULTIPLE STRINGS SHOULD NOT BE TOUCHED only actual code should be reindented,
+THIS IS MORE CODE
+"""
             return (sys.path, some_string)
