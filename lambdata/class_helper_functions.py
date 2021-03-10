@@ -38,24 +38,3 @@ def randomize(df, seed=None):
     columns = df.columns
     df = shuffle(df[columns], random_state=seed)
     return df
-
-
-def addy_split(addy_series):
-    """Split addresses into three columns (df['city'], df['state'],
-    df['zip']"""
-    cities = []
-    states = []
-    zips = []
-    for addy in addy_series:
-        split_addy_1 = (addy.split(','))
-        cities.append(split_addy_1[0].split('\n')[1])
-        states.append(split_addy_1[1].split(' ')[1])
-        zips.append(split_addy_1[1].split(' ')[2])
-
-    df = pd.DataFrame({'city': cities,
-                       'state': states,
-                       'zip': zips})
-    return df
-
-
-

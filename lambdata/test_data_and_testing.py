@@ -1,3 +1,6 @@
+import numpy as np
+import pandas as pd
+
 # Test Data
 test_df = pd.DataFrame({'column 0': [np.NaN, 4, 3, 1, 4, 2, 1, 5, 5, 2],
                         'column 1': [9, 1, 2, 3, 4, np.NaN, np.NaN, 0, 22, 1],
