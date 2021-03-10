@@ -4,14 +4,14 @@ import pandas as pd
 from sklearn.utils import shuffle
 
 
-class DataFrameHelper():
-    def __init__(self, name='Frank'):
+class DataFrameHelper:
+    def __init__(self, name="Frank"):
         # Constructor, it is the initializer of the class object, it constructs
         # our objects; it is typically used to define our attributes
         self.name = name
 
     def __repr__(self):
-        return f'Helper name is {self.name}.'
+        return f"Helper name is {self.name}."
 
     def null_count(self, df):
         """Check a DataFrame for null values and returns the number of missing
@@ -53,12 +53,10 @@ def addy_split(addy_series):
     states = []
     zips = []
     for addy in addy_series:
-        split_addy_1 = (addy.split(','))
-        cities.append(split_addy_1[0].split('\n')[1])
-        states.append(split_addy_1[1].split(' ')[1])
-        zips.append(split_addy_1[1].split(' ')[2])
+        split_addy_1 = addy.split(",")
+        cities.append(split_addy_1[0].split("\n")[1])
+        states.append(split_addy_1[1].split(" ")[1])
+        zips.append(split_addy_1[1].split(" ")[2])
 
-    df = pd.DataFrame({'city': cities,
-                       'state': states,
-                       'zip': zips})
+    df = pd.DataFrame({"city": cities, "state": states, "zip": zips})
     return df

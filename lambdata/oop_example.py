@@ -1,6 +1,6 @@
 """Object Oriented Programming Examples - Sprint 1 Module 2"""
 
-import pandas as pd 
+import pandas as pd
 
 
 class MyDataFrame(pd.DataFrame):
@@ -41,13 +41,13 @@ class SocialMediaUser:
         self.upvotes += num_upvotes
 
     def is_popular(self):
-        return self.upvotes > 100 
+        return self.upvotes > 100
         # If upvotes > 100 will return True, is popular - using 'is' in
         # your method name indicates you are looking for a Boolean return
         # 'is_popular'
 
 
-class Animal():
+class Animal:
     """General Representation of Animals"""
 
     def __init__(self, name, weight, diet_type):
@@ -62,21 +62,21 @@ class Animal():
         return "Huge fan of that " + food
 
 
-class Sloth(Animal): 
+class Sloth(Animal):
     # Sloth is the child the inherits everything from it's parent class, Animal
-    
+
     def __init__(self, name, weight, diet_type, num_naps=104):
         super().__init__(name, weight, diet_type)
         self.num_naps = float(num_naps)
 
-    def run(self): # Can override methods from the parent class.
+    def run(self):  # Can override methods from the parent class.
         return "I am a slow guy"
 
     def say_something(self):
         return "This is a sloth typing"
 
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     # Wrapping the below in this statement means that the below will only print
     # out if we run/execute the file oop_example.py; it won't print on imports
     num1 = Complex(3, -5)  # num1.r = 3, num1.i = -5
@@ -85,7 +85,7 @@ if __name__ == "__main__":
     num1.add(num2)
     print("num1.r: {}, num1.i: {}".format(num1.r, num1.i))
 
-    user1 = SocialMediaUser("Frank", 'Vernon, CT', 500)
+    user1 = SocialMediaUser("Frank", "Vernon, CT", 500)
     user2 = SocialMediaUser("Carl", "Mississippi")
     user3 = SocialMediaUser("George Washington", "Djibouti", 4000)
     user4 = SocialMediaUser("Carlos", "Argentina", 4)
