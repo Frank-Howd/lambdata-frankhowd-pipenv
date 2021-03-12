@@ -6,8 +6,9 @@ The module Class Helper Functions (class_helper_functions) includes code written
 
 ***Includes methods for DataFrameHelper class:***
    
-   ```null_count       - Check a DataFrame for null values and returns the number of missing valuse```
-   
-   ```train_test_split - Create a train/test split function for a DataFrame that returns both the 
+   ```null_count       - Check a DataFrame for null values and returns the number of missing values
+   `train_test_split - Create a train/test split function for a DataFrame that returns both the 
                          train and test sets.```
+   
+`
                          
