@@ -26,10 +26,4 @@ The module Class Helper Functions (class_helper_functions) includes code written
     Numpy
     Pandas
     Scikit-Learn
-<<<<<<< HEAD
     
-=======
-    
-
-
->>>>>>> 9905db96ee85f79826aad2b92cfa28e1b2c6754e
