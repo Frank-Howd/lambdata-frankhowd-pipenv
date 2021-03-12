@@ -10,6 +10,7 @@ scikit-learn = "*"
 black = "*"
 flake8 = "*"
 pytest = "*"
+notebook = "*"
 
 [dev-packages]
 
