@@ -28,4 +28,4 @@ The module Class Helper Functions (class_helper_functions) includes code written
     Scikit-Learn
     
 
-Check it out!
+
