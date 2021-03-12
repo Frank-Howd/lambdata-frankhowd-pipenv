@@ -1,11 +1,9 @@
 """Basic Unit Tests for class_helper_functions Module"""
 
-import pytest
+from lambdata import class_helper_functions
+
 import numpy as np
 import pandas as pd
-
-from lambdata import oop_example
-from lambdata import class_helper_functions
 
 # Testing class_helper_functions
 
