@@ -9,25 +9,5 @@ The module Class Helper Functions (class_helper_functions) includes code written
    ```null_count       - Check a DataFrame for null values and returns the number of missing valuse```
    
    ```train_test_split - Create a train/test split function for a data frame that returns both the
-                        training and test sets.  'frac' refers to the percent of data you would
-                        like to set aside for training```
-                        
-   ```randomize        - Develop a randomization function that randomizes all of a dataframe's cells
-                        then returns that randomized dataframe.  This function also accepts a
-                        random seed for reproducible randomization```
-
-
-***Series function:***
-
-     ```addy_split     - Split addresses into three columns (df['city'], df['state'], df['zip']```
-
-
-***Required dependencies:***
-    
-   ```Python3.*
-    Numpy
-    Pandas
-    Scikit-Learn```
-    
-
-Check it out!
+                         training and test sets.  'frac' refers to the percent of data you would
+                         like to set aside for training```
