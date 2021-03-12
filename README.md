@@ -18,7 +18,7 @@ The module Class Helper Functions (class_helper_functions) includes code written
 
 ## **Bonus Series Function:**
 
-   addy_split         - Split addresses into city, state, and zip code
+   ***addy_split***         - Split addresses into city, state, and zip code
 
 *Required Dependencies:*
     
