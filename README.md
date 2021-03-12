@@ -22,10 +22,10 @@ Bonus Series function:
 
 Required dependenciees:
     
-    Python3.*
+    '''Python3.*
     Numpy
     Pandas
-    Scikit-Learn
+    Scikit-Learn'''
     
 
 Check it out!
