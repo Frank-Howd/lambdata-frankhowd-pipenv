@@ -4,7 +4,7 @@ A package of modules that include Data Science helper functions
 This is my first package, and it includes some useful and general-purpose reusuable code.  
 The module Class Helper Functions (class_helper_functions) includes code written to add another layer of functionality to DataFrames data and Arrays by creating class object DataFrameHelper and includes a bonus function for dealing with a Series of addresses. 
 
-**Included Methods for DataFrameHelper Class:**
+## **Included Methods for DataFrameHelper Class:**
    
    ***null_count***        - Check a DataFrame for null values and returns the number of missing values
    
@@ -16,7 +16,7 @@ The module Class Helper Functions (class_helper_functions) includes code written
                         then returns that randomized dataframe.  This function also accepts a
                         random seed for reproducible randomization
 
-**Bonus Series Vunction:**
+## **Bonus Series Function:**
 
    addy_split         - Split addresses into city, state, and zip code
 
